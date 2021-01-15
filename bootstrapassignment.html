@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-bootstrap</title>
+    <link rel="shortcut icon" href="icons\favicon1.ico">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js">
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+
+<style>
+    .btn3 {
+        border-radius: 9px;
+        width: 15%;
+        border: none;
+    }
+    
+    .card {
+        background-color: #fffefeea;
+        opacity: 75%;
+        border-radius: 12px;
+        border: none;
+        padding: 10px;
+        box-shadow: 8px 10px 5px #fdfbfb;
+    }
+    
+    .card:hover {
+        opacity: 100%;
+    }
+    
+    #para {
+        font-size: 14px;
+    }
+    
+    #heading {
+        font-size: 22px;
+    }
+    
+    button.btn1.collapsed:before {
+        content: 'Show All Categories';
+    }
+    
+    button.btn1:before {
+        content: 'Hide Categories';
+    }
+    
+    .btn1 {
+        border-radius: 16px;
+        font-size: 9px;
+        width: 112px;
+        border: none;
+        border-color: white;
+        padding: 6px;
+        color: white;
+        background-color: #1c2333;
+    }
+</style>
+
+
+</head>
+
+<body>
+    <header>
+        <h2 class="text-dark text-center border-info m-3">
+            <b>Browse Jobs By Category</b>
+        </h2>
+    </header>
+    <section>
+        <div class="accordion" id="hotelForm">
+            <div class="container w-75 mb-2">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="container p-0 m-3">
+                            <div class="card w-100 p-3">
+                                <button class="btn3" style="background-color: #e2f4fe;">
+                                <i class="fas fa-bezier-curve " style=" color: rgba(0, 102, 255, 0.712);"></i>
+                                </button>
+                                <h2 id="heading" class="mt-2">Design & <br>Development</h2>
+                                <p id="para" class="mt-2 mb-2">
+                                    Design and development ioremdolor sit amet consetetur sadipscing elitr, sed diam nonumy.
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-4">
+                        <div class="container p-0 m-3">
+                            <div class="card w-100 p-3">
+                                <button class="btn3" style="background-color: #fadddf;">
+                                <i class="fa fa-glass" style="color: #ec9399;"></i>
+                                </button>
+                                <h2 id="heading" class="mt-2">Science & <br>Technologies</h2>
+                                <p id="para" class="mt-2 mb-2">
+                                    Design and development ioremdolor sit amet consetetur sadipscing elitr, sed diam nonumy.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-4">
+                        <div class="container p-0 m-3">
+                            <div class="card w-100 p-3">
+                                <button class="btn3" style="background-color: #fff9d4;"><i class="fa fa-vcard" style="color: darkkhaki;"></i></button>
+                                <h2 id="heading" class="mt-2">Office <br>Administrative</h2>
+                                <p id="para" class="mt-2 mb-2">
+                                    Design and development ioremdolor sit amet consetetur sadipscing elitr, sed diam nonumy.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!--2-row-->
+
+                <div class="row">
+                    <div class="col-4">
+                        <div class="container p-0 m-3">
+                            <div class="card w-100 p-3">
+                                <button class="btn3" style="background-color:#fff9d4;"><i class="fa fa-credit-card" style="color: darkkhaki;"></i></button>
+                                <h2 id="heading" class="mt-2">Property <br>Development</h2>
+                                <p id="para" class="mt-2 mb-2">
+                                    Design and development ioremdolor sit amet consetetur sadipscing elitr, sed diam nonumy.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-4">
+                        <div class="container p-0 m-3">
+                            <div class="card w-100 p-3">
+                                <button class="btn3" style="background-color: rgb(212, 235, 243);"><i class="fa fa-briefcase" style="color: darkslateblue;"></i></button>
+                                <h2 id="heading" class="mt-2">Business <br>Development</h2>
+                                <p id="para" class="mt-2 mb-2">
+                                    Design and development ioremdolor sit amet consetetur sadipscing elitr, sed diam nonumy.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-4">
+                        <div class="container p-0 m-3">
+                            <div class="card w-100 p-3">
+                                <button class="btn3" style="background-color: #fadddf;"><i class="fa fa-file" style="color: #ec9399;"></i></button>
+                                <h2 id="heading" class="mt-2">Admin & <br>Accountant</h2>
+                                <p id="para" class="mt-2 mb-2">
+                                    Design and development ioremdolor sit amet consetetur sadipscing elitr, sed diam nonumy.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!--3-row-->
+
+                <div class="card-footer border-0 p-1" style="background-color: white;">
+                    <div data-parent="#hotelForm" class="collapse w-100" id="roomCollapse">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="container p-0 m-3">
+                                    <div class="card p-3">
+                                        <button class="btn3" style="background-color:#fff9d4;"><i class="fa fa-credit-card" style="color: darkkhaki;"></i></button>
+                                        <h2 id="heading" class="mt-2">Computer <br>Manager</h2>
+                                        <p id="para" class="mt-2 mb-2">
+                                            Design and development ioremdolor sit amet consetetur sadipscing elitr, sed diam nonumy.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-4">
+                                <div class="container p-0 m-3">
+                                    <div class="card w-100 p-3">
+                                        <button class="btn3" style="background-color: rgb(212, 235, 243);"><i class="fa fa-briefcase" style="color: darkslateblue;"></i></button>
+                                        <h2 id="heading" class="mt-2">Software <br>Application</h2>
+                                        <p id="para" class="mt-2 mb-2">
+                                            Design and development ioremdolor sit amet consetetur sadipscing elitr, sed diam nonumy.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-4">
+                                <div class="container p-0 m-3">
+                                    <div class="card w-100 p-3">
+                                        <button class="btn3" style="background-color: #fadddf;"><i class="fa fa-file" style="color: #ec9399;"></i></button>
+                                        <h2 id="heading" class="mt-2">Software <br>Designer</h2>
+                                        <p id="para" class="mt-2 mb-2">
+                                            Design and development ioremdolor sit amet consetetur sadipscing elitr, sed diam nonumy.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="table text-center border-0" style="background-color: none;">
+                        <button class="btn1 collapsed" onclick="changeTxt()" data-target="#roomCollapse" data-toggle="collapse"> 
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
